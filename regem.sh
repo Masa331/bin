@@ -4,4 +4,4 @@ echo $GEM_NAME
 sudo gem uninstall $GEM_NAME -a -x
 rm $GEM_NAME-*.gem
 gem build $GEM_NAME.gemspec
-sudo gem install $GEM_NAME-*.gem
+sudo gem install $GEM_NAME-*.gem -N
